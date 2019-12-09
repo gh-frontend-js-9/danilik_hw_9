@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tamagochi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="pet-wrapper">
+    <div class="img-container">
+        <img src="img/kitty.png" alt="" id="petImg" class="pet-img">
+        <!-- <img src="img/pug.png" alt="" id="petImg" class="pet-img">
+        <img src="img/ninja.png" alt="" id="petImg" class="pet-img"> -->
+    </div>
+<div class="pet-select">
+    <select id="typeValue">
+        <option value="kitty">Fluffy kitty (easy level)</option>
+        <option value="pug">Lazy pug (hard level)</option>
+        <option value="ninja">Ninja(hard level)</option>
+    </select>
+        <button class="start-btn" id ="startBtn">Start</button>
+    </div>
+</div>
+
+    <div class="wrapper">
+    <div class="btn-block">
+    <p id="foodValue">Click on Start</p>
+        <button class="btn" id="foodBtn">Food</button>
+    </div>
+    <div class="btn-block">
+    <p id="cleanValue">Click on Start</p>
+        <button class="btn" id="cleanBtn">Wash</button>
+    </div>
+    <div class="btn-block">
+    <p id="happinessValue">Click on Start</p>
+        <button class="btn" id="happinessBtn">Happiness</button>
+    </div>
+
+        <!-- Coming soon-->
+    <div class="btn-block">
+    <p id="happinessValue">Click on Start</p>
+        <button class="btn" id="happinessBtn">Visit Doctor</button>
+    </div>
+    <div class="btn-block">
+    <p id="happinessValue">Click on Start</p>
+        <button class="btn" id="happinessBtn">Go to bar</button>
+    </div>
+    <div class="btn-block">
+    <p id="happinessValue">Click on Start</p>
+        <button class="btn" id="happinessBtn">Go to work</button>
+    </div>
+    <div class="btn-block">
+    <p id="happinessValue">Click on Start</p>
+        <button class="btn" id="happinessBtn">Buy food</button>
+    </div>
+    <div class="btn-block">
+    <p id="happinessValue">Click on Start</p>
+        <button class="btn" id="happinessBtn">Start bussiness</button>
+    </div>
+
+        <!-- The end-->
+    </div>
+    <script src="js/getAccessWithTamagochi.js"></script>
+    <script src="js/createTamagochi.js"></script>
+    <script src="js/entities/tamagochi.js"></script>
+    <script src="js/addNewPet.js"></script>
+</body>
+</html>
